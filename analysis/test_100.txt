@@ -1,0 +1,1000 @@
+************* Module get_all_urls
+ data/get_all_urls.py:15: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+             with open(json_file,'r') as f:
+                                ^
+ data/get_all_urls.py:19: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+                         line = line.replace('\"','')
+                                                 ^
+ data/get_all_urls.py:20: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+                         line = line.replace('clone_url','')
+                                                        ^
+ data/get_all_urls.py:21: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+                         line = line.replace(': https','https')
+                                                      ^
+ data/get_all_urls.py:22: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+                         line = line.replace(',','')
+                                                ^
+ data/get_all_urls.py:28: convention (C0305, trailing-newlines, ) Trailing newlines
+ data/get_all_urls.py:8: convention (C0103, invalid-name, ) Constant name "json_files_dir" doesn't conform to UPPER_CASE naming style
+ data/get_all_urls.py:10: convention (C0103, invalid-name, ) Constant name "pattern" doesn't conform to UPPER_CASE naming style
+ ************* Module algorithm-exercise.scripts.check_summary
+ data/algorithm-exercise/scripts/check_summary.py:1: convention (C0111, missing-docstring, ) Missing module docstring
+ data/algorithm-exercise/scripts/check_summary.py:7: convention (C0103, invalid-name, ) Constant name "reserve_name" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/check_summary.py:9: convention (C0103, invalid-name, ) Constant name "level_prefix" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/check_summary.py:14: convention (C0111, missing-docstring, get_dir_file) Missing function docstring
+ data/algorithm-exercise/scripts/check_summary.py:17: convention (C0103, invalid-name, get_dir_file) Variable name "l1" doesn't conform to snake_case naming style
+ data/algorithm-exercise/scripts/check_summary.py:20: convention (C0103, invalid-name, get_dir_file) Variable name "l2" doesn't conform to snake_case naming style
+ data/algorithm-exercise/scripts/check_summary.py:27: convention (C0111, missing-docstring, get_summary_dir_file) Missing function docstring
+ data/algorithm-exercise/scripts/check_summary.py:38: convention (C0111, missing-docstring, get_missing_summary) Missing function docstring
+ data/algorithm-exercise/scripts/check_summary.py:48: warning (W0621, redefined-outer-name, fix_summary_md) Redefining name 'missing_dir_files' from outer scope (line 94)
+ data/algorithm-exercise/scripts/check_summary.py:48: convention (C0111, missing-docstring, fix_summary_md) Missing function docstring
+ data/algorithm-exercise/scripts/check_summary.py:78: convention (C0111, missing-docstring, get_title) Missing function docstring
+ data/algorithm-exercise/scripts/check_summary.py:92: convention (C0103, invalid-name, ) Constant name "summ_dir_file" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/check_summary.py:93: convention (C0103, invalid-name, ) Constant name "sec_dir_file" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/check_summary.py:94: convention (C0103, invalid-name, ) Constant name "missing_dir_files" doesn't conform to UPPER_CASE naming style
+ ************* Module algorithm-exercise.scripts.util
+ data/algorithm-exercise/scripts/util.py:18: convention (C0304, missing-final-newline, ) Final newline missing
+ data/algorithm-exercise/scripts/util.py:1: convention (C0111, missing-docstring, ) Missing module docstring
+ data/algorithm-exercise/scripts/util.py:7: convention (C0111, missing-docstring, mkdir_p) Missing function docstring
+ data/algorithm-exercise/scripts/util.py:17: convention (C0111, missing-docstring, par_dir) Missing function docstring
+ ************* Module algorithm-exercise.scripts.sitemap_gen
+ data/algorithm-exercise/scripts/sitemap_gen.py:1: convention (C0111, missing-docstring, ) Missing module docstring
+ data/algorithm-exercise/scripts/sitemap_gen.py:7: error (E0401, import-error, ) Unable to import 'jinja2'
+ data/algorithm-exercise/scripts/sitemap_gen.py:14: convention (C0111, missing-docstring, sitemap) Missing function docstring
+ data/algorithm-exercise/scripts/sitemap_gen.py:14: refactor (R0914, too-many-locals, sitemap) Too many local variables (22/15)
+ data/algorithm-exercise/scripts/sitemap_gen.py:28: convention (C0103, invalid-name, sitemap) Variable name "p" doesn't conform to snake_case naming style
+ data/algorithm-exercise/scripts/sitemap_gen.py:31: convention (C0103, invalid-name, sitemap) Variable name "p" doesn't conform to snake_case naming style
+ data/algorithm-exercise/scripts/sitemap_gen.py:32: convention (C0103, invalid-name, sitemap) Variable name "p" doesn't conform to snake_case naming style
+ data/algorithm-exercise/scripts/sitemap_gen.py:33: convention (C0103, invalid-name, sitemap) Variable name "fn" doesn't conform to snake_case naming style
+ data/algorithm-exercise/scripts/sitemap_gen.py:44: convention (C0103, invalid-name, sitemap) Variable name "sf" doesn't conform to snake_case naming style
+ data/algorithm-exercise/scripts/sitemap_gen.py:47: convention (C0103, invalid-name, sitemap) Variable name "sf" doesn't conform to snake_case naming style
+ data/algorithm-exercise/scripts/sitemap_gen.py:8: convention (C0411, wrong-import-order, ) standard import "from subprocess import check_output" should be placed before "from jinja2 import Environment, FileSystemLoader"
+ ************* Module algorithm-exercise.scripts.leetcode
+ data/algorithm-exercise/scripts/leetcode.py:34: convention (C0303, trailing-whitespace, ) Trailing whitespace
+ data/algorithm-exercise/scripts/leetcode.py:49: convention (C0303, trailing-whitespace, ) Trailing whitespace
+ data/algorithm-exercise/scripts/leetcode.py:1: convention (C0111, missing-docstring, ) Missing module docstring
+ data/algorithm-exercise/scripts/leetcode.py:5: error (E0401, import-error, ) Unable to import 'selenium'
+ data/algorithm-exercise/scripts/leetcode.py:8: convention (C0111, missing-docstring, Leetcode) Missing class docstring
+ data/algorithm-exercise/scripts/leetcode.py:8: refactor (R0205, useless-object-inheritance, Leetcode) Class 'Leetcode' inherits from object, can be safely removed from bases in python3
+ data/algorithm-exercise/scripts/leetcode.py:16: warning (W0621, redefined-outer-name, Leetcode.open_url) Redefining name 'url' from outer scope (line 76)
+ data/algorithm-exercise/scripts/leetcode.py:16: convention (C0111, missing-docstring, Leetcode.open_url) Missing method docstring
+ data/algorithm-exercise/scripts/leetcode.py:21: convention (C0111, missing-docstring, Leetcode.teardown) Missing method docstring
+ data/algorithm-exercise/scripts/leetcode.py:24: convention (C0111, missing-docstring, Leetcode.get_title) Missing method docstring
+ data/algorithm-exercise/scripts/leetcode.py:30: convention (C0111, missing-docstring, Leetcode.get_description) Missing method docstring
+ data/algorithm-exercise/scripts/leetcode.py:35: convention (C0111, missing-docstring, Leetcode.get_difficulty) Missing method docstring
+ data/algorithm-exercise/scripts/leetcode.py:40: convention (C0111, missing-docstring, Leetcode.get_tags) Missing method docstring
+ data/algorithm-exercise/scripts/leetcode.py:50: warning (W0621, redefined-outer-name, Leetcode._clean_url) Redefining name 'url' from outer scope (line 76)
+ data/algorithm-exercise/scripts/leetcode.py:50: refactor (R0201, no-self-use, Leetcode._clean_url) Method could be a function
+ data/algorithm-exercise/scripts/leetcode.py:56: warning (W0621, redefined-outer-name, Leetcode.get_problem_all) Redefining name 'url' from outer scope (line 76)
+ data/algorithm-exercise/scripts/leetcode.py:17: warning (W0201, attribute-defined-outside-init, Leetcode.open_url) Attribute 'url' defined outside __init__
+ data/algorithm-exercise/scripts/leetcode.py:76: convention (C0103, invalid-name, ) Constant name "url" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/leetcode.py:77: convention (C0103, invalid-name, ) Constant name "leetcode" doesn't conform to UPPER_CASE naming style
+ ************* Module algorithm-exercise.scripts.lintcode
+ data/algorithm-exercise/scripts/lintcode.py:20: convention (C0301, line-too-long, ) Line too long (133/100)
+ data/algorithm-exercise/scripts/lintcode.py:32: convention (C0326, bad-whitespace, ) Exactly one space required after assignment
+         clarification =  self.driver['clarification']
+                       ^
+ data/algorithm-exercise/scripts/lintcode.py:1: convention (C0111, missing-docstring, ) Missing module docstring
+ data/algorithm-exercise/scripts/lintcode.py:9: convention (C0111, missing-docstring, Lintcode) Missing class docstring
+ data/algorithm-exercise/scripts/lintcode.py:9: refactor (R0205, useless-object-inheritance, Lintcode) Class 'Lintcode' inherits from object, can be safely removed from bases in python3
+ data/algorithm-exercise/scripts/lintcode.py:14: warning (W0621, redefined-outer-name, Lintcode.open_url) Redefining name 'url' from outer scope (line 93)
+ data/algorithm-exercise/scripts/lintcode.py:14: convention (C0111, missing-docstring, Lintcode.open_url) Missing method docstring
+ data/algorithm-exercise/scripts/lintcode.py:23: convention (C0111, missing-docstring, Lintcode.get_title) Missing method docstring
+ data/algorithm-exercise/scripts/lintcode.py:28: convention (C0111, missing-docstring, Lintcode.get_description) Missing method docstring
+ data/algorithm-exercise/scripts/lintcode.py:47: convention (C0111, missing-docstring, Lintcode.get_difficulty) Missing method docstring
+ data/algorithm-exercise/scripts/lintcode.py:53: convention (C0111, missing-docstring, Lintcode.get_tags) Missing method docstring
+ data/algorithm-exercise/scripts/lintcode.py:68: warning (W0621, redefined-outer-name, Lintcode._clean_url) Redefining name 'url' from outer scope (line 93)
+ data/algorithm-exercise/scripts/lintcode.py:68: refactor (R0201, no-self-use, Lintcode._clean_url) Method could be a function
+ data/algorithm-exercise/scripts/lintcode.py:74: warning (W0621, redefined-outer-name, Lintcode.get_problem_all) Redefining name 'url' from outer scope (line 93)
+ data/algorithm-exercise/scripts/lintcode.py:18: warning (W0201, attribute-defined-outside-init, Lintcode.open_url) Attribute 'url' defined outside __init__
+ data/algorithm-exercise/scripts/lintcode.py:93: convention (C0103, invalid-name, ) Constant name "url" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/lintcode.py:94: convention (C0103, invalid-name, ) Constant name "lintcode" doesn't conform to UPPER_CASE naming style
+ ************* Module algorithm-exercise.scripts.ojhtml2markdown
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:13: convention (C0303, trailing-whitespace, ) Trailing whitespace
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:17: convention (C0303, trailing-whitespace, ) Trailing whitespace
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:4: error (E0401, import-error, ) Unable to import 'frontmatter'
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:6: error (E0401, import-error, ) Unable to import 'html2text'
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:9: convention (C0111, missing-docstring, YamlContent) Missing class docstring
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:9: refactor (R0205, useless-object-inheritance, YamlContent) Class 'YamlContent' inherits from object, can be safely removed from bases in python3
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:15: convention (C0111, missing-docstring, YamlContent.metadata) Missing method docstring
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:19: convention (C0111, missing-docstring, YamlContent.content) Missing method docstring
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:22: warning (W0101, unreachable, YamlContent.content) Unreachable code
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:22: error (E0602, undefined-variable, YamlContent.content) Undefined variable 'title'
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:23: error (E0602, undefined-variable, YamlContent.content) Undefined variable 'metadata'
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:23: warning (W0612, unused-variable, YamlContent.content) Unused variable 'yaml_content'
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:26: convention (C0111, missing-docstring, leet_lint_url) Missing function docstring
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:31: refactor (R1704, redefined-argument-from-local, leet_lint_url) Redefining argument with the local name 'url'
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:43: convention (C0111, missing-docstring, problem2md) Missing function docstring
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:54: convention (C0103, invalid-name, problem2md) Variable name "h" doesn't conform to snake_case naming style
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:65: convention (C0103, invalid-name, problem2md) Variable name "v" doesn't conform to snake_case naming style
+ data/algorithm-exercise/scripts/ojhtml2markdown.py:5: convention (C0411, wrong-import-order, ) third party import "import requests" should be placed before "import frontmatter"
+ ************* Module algorithm-exercise.scripts.main
+ data/algorithm-exercise/scripts/main.py:65: convention (C0303, trailing-whitespace, ) Trailing whitespace
+ data/algorithm-exercise/scripts/main.py:67: convention (C0304, missing-final-newline, ) Final newline missing
+ data/algorithm-exercise/scripts/main.py:1: convention (C0111, missing-docstring, ) Missing module docstring
+ data/algorithm-exercise/scripts/main.py:8: error (E0401, import-error, ) Unable to import 'frontmatter'
+ data/algorithm-exercise/scripts/main.py:9: error (E0401, import-error, ) Unable to import 'slugify'
+ data/algorithm-exercise/scripts/main.py:11: error (E0611, no-name-in-module, ) No name 'par_dir' in module 'util'
+ data/algorithm-exercise/scripts/main.py:11: error (E0611, no-name-in-module, ) No name 'mkdir_p' in module 'util'
+ data/algorithm-exercise/scripts/main.py:14: error (E0401, import-error, ) Unable to import 'summary'
+ data/algorithm-exercise/scripts/main.py:20: convention (C0111, missing-docstring, curr_time) Missing function docstring
+ data/algorithm-exercise/scripts/main.py:25: convention (C0103, invalid-name, ) Constant name "parser" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:36: convention (C0103, invalid-name, ) Constant name "args" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:41: convention (C0103, invalid-name, ) Constant name "raw_url" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:42: convention (C0103, invalid-name, ) Constant name "problem_md" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:43: convention (C0103, invalid-name, ) Constant name "problem_slug" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:44: convention (C0103, invalid-name, ) Constant name "xxxcode" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:45: convention (C0103, invalid-name, ) Constant name "convert_desc" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:47: convention (C0103, invalid-name, ) Constant name "xxxcode" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:49: convention (C0103, invalid-name, ) Constant name "xxxcode" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:50: convention (C0103, invalid-name, ) Constant name "convert_desc" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:51: convention (C0103, invalid-name, ) Constant name "problem" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:52: convention (C0103, invalid-name, ) Constant name "problem_slug" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:53: convention (C0103, invalid-name, ) Constant name "problem_md" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:56: convention (C0103, invalid-name, ) Constant name "post_dir" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:57: convention (C0103, invalid-name, ) Constant name "post_fn" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:58: convention (C0103, invalid-name, ) Constant name "summary_path" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:59: convention (C0103, invalid-name, ) Constant name "summary_line" doesn't conform to UPPER_CASE naming style
+ data/algorithm-exercise/scripts/main.py:8: warning (W0611, unused-import, ) Unused import frontmatter
+ ************* Module algorithm-exercise.scripts.parse_md
+ data/algorithm-exercise/scripts/parse_md.py:1: convention (C0111, missing-docstring, ) Missing module docstring
+ data/algorithm-exercise/scripts/parse_md.py:7: convention (C0103, invalid-name, parseMD) Class name "parseMD" doesn't conform to PascalCase naming style
+ data/algorithm-exercise/scripts/parse_md.py:10: convention (C0103, invalid-name, parseMD.__init__) Attribute name "isSummary" doesn't conform to snake_case naming style
+ data/algorithm-exercise/scripts/parse_md.py:7: convention (C0111, missing-docstring, parseMD) Missing class docstring
+ data/algorithm-exercise/scripts/parse_md.py:12: convention (C0111, missing-docstring, parseMD.get_title) Missing method docstring
+ data/algorithm-exercise/scripts/parse_md.py:7: refactor (R0903, too-few-public-methods, parseMD) Too few public methods (1/2)
+ data/algorithm-exercise/scripts/parse_md.py:4: warning (W0611, unused-import, ) Unused import os
+ ************* Module public-apis.build.validate_links
+ data/public-apis/build/validate_links.py:14: warning (W1401, anomalous-backslash-in-string, ) Anomalous backslash in string: '\('. String constant might be missing an r prefix.
+ data/public-apis/build/validate_links.py:14: warning (W1401, anomalous-backslash-in-string, ) Anomalous backslash in string: '\)'. String constant might be missing an r prefix.
+ data/public-apis/build/validate_links.py:1: convention (C0111, missing-docstring, ) Missing module docstring
+ data/public-apis/build/validate_links.py:3: error (E0401, import-error, ) Unable to import 'httplib2'
+ data/public-apis/build/validate_links.py:11: convention (C0103, invalid-name, parse_links) Variable name "fp" doesn't conform to snake_case naming style
+ data/public-apis/build/validate_links.py:23: warning (W0621, redefined-outer-name, validate_links) Redefining name 'errors' from outer scope (line 44)
+ data/public-apis/build/validate_links.py:25: convention (C0103, invalid-name, validate_links) Variable name "h" doesn't conform to snake_case naming style
+ data/public-apis/build/validate_links.py:40: convention (C0103, invalid-name, ) Constant name "num_args" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_links.py:44: convention (C0103, invalid-name, ) Constant name "errors" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_links.py:45: convention (C1801, len-as-condition, ) Do not use `len(SEQUENCE)` to determine if a sequence is empty
+ data/public-apis/build/validate_links.py:4: convention (C0411, wrong-import-order, ) standard import "import re" should be placed before "import httplib2"
+ data/public-apis/build/validate_links.py:5: convention (C0411, wrong-import-order, ) standard import "import socket" should be placed before "import httplib2"
+ data/public-apis/build/validate_links.py:6: convention (C0411, wrong-import-order, ) standard import "import sys" should be placed before "import httplib2"
+ ************* Module public-apis.build.validate_format
+ data/public-apis/build/validate_format.py:56: convention (C0301, line-too-long, ) Line too long (109/100)
+ data/public-apis/build/validate_format.py:89: convention (C0301, line-too-long, ) Line too long (110/100)
+ data/public-apis/build/validate_format.py:133: convention (C0301, line-too-long, ) Line too long (111/100)
+ data/public-apis/build/validate_format.py:137: convention (C0301, line-too-long, ) Line too long (112/100)
+ data/public-apis/build/validate_format.py:149: convention (C0301, line-too-long, ) Line too long (106/100)
+ data/public-apis/build/validate_format.py:155: convention (C0301, line-too-long, ) Line too long (102/100)
+ data/public-apis/build/validate_format.py:24: warning (W1401, anomalous-backslash-in-string, ) Anomalous backslash in string: '\s'. String constant might be missing an r prefix.
+ data/public-apis/build/validate_format.py:25: warning (W1401, anomalous-backslash-in-string, ) Anomalous backslash in string: '\*'. String constant might be missing an r prefix.
+ data/public-apis/build/validate_format.py:25: warning (W1401, anomalous-backslash-in-string, ) Anomalous backslash in string: '\s'. String constant might be missing an r prefix.
+ data/public-apis/build/validate_format.py:25: warning (W1401, anomalous-backslash-in-string, ) Anomalous backslash in string: '\['. String constant might be missing an r prefix.
+ data/public-apis/build/validate_format.py:25: warning (W1401, anomalous-backslash-in-string, ) Anomalous backslash in string: '\]'. String constant might be missing an r prefix.
+ data/public-apis/build/validate_format.py:26: warning (W1401, anomalous-backslash-in-string, ) Anomalous backslash in string: '\['. String constant might be missing an r prefix.
+ data/public-apis/build/validate_format.py:26: warning (W1401, anomalous-backslash-in-string, ) Anomalous backslash in string: '\]'. String constant might be missing an r prefix.
+ data/public-apis/build/validate_format.py:26: warning (W1401, anomalous-backslash-in-string, ) Anomalous backslash in string: '\('. String constant might be missing an r prefix.
+ data/public-apis/build/validate_format.py:26: warning (W1401, anomalous-backslash-in-string, ) Anomalous backslash in string: '\)'. String constant might be missing an r prefix.
+ data/public-apis/build/validate_format.py:1: convention (C0111, missing-docstring, ) Missing module docstring
+ data/public-apis/build/validate_format.py:6: convention (C0103, invalid-name, ) Constant name "anchor" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:7: convention (C0103, invalid-name, ) Constant name "min_entries_per_section" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:8: convention (C0103, invalid-name, ) Constant name "auth_keys" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:9: convention (C0103, invalid-name, ) Constant name "punctuation" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:10: convention (C0103, invalid-name, ) Constant name "https_keys" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:11: convention (C0103, invalid-name, ) Constant name "cors_keys" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:13: convention (C0103, invalid-name, ) Constant name "index_title" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:14: convention (C0103, invalid-name, ) Constant name "index_desc" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:15: convention (C0103, invalid-name, ) Constant name "index_auth" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:16: convention (C0103, invalid-name, ) Constant name "index_https" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:17: convention (C0103, invalid-name, ) Constant name "index_cors" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:18: convention (C0103, invalid-name, ) Constant name "index_link" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:19: convention (C0103, invalid-name, ) Constant name "num_segments" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:21: convention (C0103, invalid-name, ) Constant name "errors" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:22: convention (C0103, invalid-name, ) Constant name "title_links" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:23: convention (C0103, invalid-name, ) Constant name "previous_links" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:24: convention (C0103, invalid-name, ) Constant name "anchor_re" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:25: convention (C0103, invalid-name, ) Constant name "section_title_re" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:26: convention (C0103, invalid-name, ) Constant name "link_re" doesn't conform to UPPER_CASE naming style
+ data/public-apis/build/validate_format.py:59: convention (C0111, missing-docstring, check_entry) Missing function docstring
+ data/public-apis/build/validate_format.py:118: convention (C0103, invalid-name, check_format) Variable name "fp" doesn't conform to snake_case naming style
+ data/public-apis/build/validate_format.py:163: convention (C0111, missing-docstring, main) Missing function docstring
+ data/public-apis/build/validate_format.py:168: convention (C1801, len-as-condition, main) Do not use `len(SEQUENCE)` to determine if a sequence is empty
+ ************* Module pox.pox
+ data/pox/debug-pox.py:45: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/debug-pox.py:42: error (E0611, no-name-in-module, ) No name 'boot' in module 'pox'
+ data/pox/debug-pox.py:42: error (E0401, import-error, ) Unable to import 'pox.boot'
+ data/pox/pox.py:45: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox.py:42: error (E0611, no-name-in-module, ) No name 'boot' in module 'pox'
+ data/pox/pox.py:42: error (E0401, import-error, ) Unable to import 'pox.boot'
+ ************* Module pox.pox.boot
+ data/pox/pox/boot.py:23: warning (W0511, fixme, ) TODO: Make runnable by itself (paths need adjusting, etc.).
+ data/pox/pox/boot.py:108: warning (W0511, fixme, ) TODO: Check on this behavior in pypy 2.0.
+ data/pox/pox/boot.py:220: warning (W0511, fixme, ) FIXME: This code doesn't look quite right to me and may be broken
+ data/pox/pox/boot.py:280: warning (W0511, fixme, ) TODO: only strip the same leading space as was on the first
+ data/pox/pox/boot.py:391: warning (W0511, fixme, ) TODO: Summarize options, etc.
+ data/pox/pox/boot.py:424: warning (W0511, fixme, ) TODO: Is this really an option we need/want?
+ data/pox/pox/boot.py:476: warning (W0511, fixme, ) TODO:
+ data/pox/pox/boot.py:523: warning (W0511, fixme, ) TODO: Can we just get rid of the normal options yet?
+ data/pox/pox/boot.py:65: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:67: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:69: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ def _do_import (name):
+                ^
+ data/pox/pox/boot.py:70: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:75: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:75: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def show_fail ():
+                 ^
+ data/pox/pox/boot.py:76: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:77: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:79: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:79: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def do_import2 (base_name, names_to_try):
+                  ^
+ data/pox/pox/boot.py:80: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:81: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:82: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:84: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:86: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:87: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:89: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:90: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:91: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:92: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:104: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:105: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:109: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:112: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:113: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:114: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:115: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:116: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:117: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:117: convention (C0326, bad-whitespace, ) No space allowed after bracket
+         n = n.replace( os.path.sep, ".")
+                      ^
+ data/pox/pox/boot.py:118: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:119: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:120: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:121: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:122: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:125: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:126: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:127: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:130: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:131: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:133: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:136: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ def _do_imports (components):
+                 ^
+ data/pox/pox/boot.py:137: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:143: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:144: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:145: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:146: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:147: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:148: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:149: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:150: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:150: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+     done[name] = (r,sys.modules[r],members)
+                    ^
+ data/pox/pox/boot.py:150: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+     done[name] = (r,sys.modules[r],members)
+                                   ^
+ data/pox/pox/boot.py:152: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:155: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ def _do_launch (argv):
+                ^
+ data/pox/pox/boot.py:156: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:157: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:159: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:160: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:162: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:163: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:164: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:165: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:166: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:167: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:168: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:169: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:170: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:171: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:172: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:173: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:175: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:176: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:177: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:178: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:179: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:180: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:181: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:185: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:186: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:187: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:188: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:190: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:191: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:192: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:193: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:194: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:195: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:196: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:197: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:199: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:199: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+     name,module,members = modules[name]
+         ^
+ data/pox/pox/boot.py:199: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+     name,module,members = modules[name]
+                ^
+ data/pox/pox/boot.py:201: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:202: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:204: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:205: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:206: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:208: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:209: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:210: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:210: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+         for k,v in params.items():
+              ^
+ data/pox/pox/boot.py:211: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:212: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:213: warning (W0311, bad-indentation, ) Bad indentation. Found 14 spaces, expected 28
+ data/pox/pox/boot.py:214: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:216: warning (W0311, bad-indentation, ) Bad indentation. Found 14 spaces, expected 28
+ data/pox/pox/boot.py:218: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:219: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:223: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:224: convention (C0330, bad-continuation, ) Wrong continued indentation before block (add 4 spaces).
+             == '__INSTANCE__'):
+             ^   |
+ data/pox/pox/boot.py:227: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:235: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:236: convention (C0330, bad-continuation, ) Wrong continued indentation (add 25 spaces).
+            inst[cname] + 1 == len(components[cname]))
+            ^                        |
+ data/pox/pox/boot.py:238: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:239: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:240: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:242: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:243: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:245: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:246: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:247: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:248: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:249: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:250: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:250: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+         print("Error executing {2}{0}.{1}:".format(name,launch,instText))
+                                                        ^
+ data/pox/pox/boot.py:250: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+         print("Error executing {2}{0}.{1}:".format(name,launch,instText))
+                                                               ^
+ data/pox/pox/boot.py:251: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:254: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:255: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:256: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:257: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:258: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:259: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:260: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:261: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:262: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:263: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:264: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:265: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:266: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:267: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:268: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:268: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+             args[a] = [EMPTY,EMPTY]
+                             ^
+ data/pox/pox/boot.py:269: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:270: warning (W0311, bad-indentation, ) Bad indentation. Found 14 spaces, expected 28
+ data/pox/pox/boot.py:271: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:272: warning (W0311, bad-indentation, ) Bad indentation. Found 14 spaces, expected 28
+ data/pox/pox/boot.py:273: warning (W0311, bad-indentation, ) Bad indentation. Found 14 spaces, expected 28
+ data/pox/pox/boot.py:274: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:275: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:277: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:278: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:279: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:282: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:283: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:283: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+             print('',("\n ".join(doc)).strip())
+                     ^
+ data/pox/pox/boot.py:288: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:289: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:290: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:291: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:292: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:293: convention (C0330, bad-continuation, ) Wrong continued indentation (add 1 space).
+                                                 "Active"))
+                                                 ^|
+ data/pox/pox/boot.py:294: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:296: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:296: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+             for k,v in args.iteritems():
+                  ^
+ data/pox/pox/boot.py:297: warning (W0311, bad-indentation, ) Bad indentation. Found 14 spaces, expected 28
+ data/pox/pox/boot.py:297: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+               print(" {0:25} {1:25} {2:25}".format(k,str(v[0]),
+                                                     ^
+ data/pox/pox/boot.py:298: convention (C0330, bad-continuation, ) Wrong continued indentation (add 31 spaces).
+                     str(v[1] if v[1] is not EMPTY else v[0])))
+                     ^                              |
+ data/pox/pox/boot.py:300: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:301: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:303: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:304: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:304: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+           missing = [k for k,x in args.iteritems()
+                             ^
+ data/pox/pox/boot.py:306: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:307: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:309: warning (W0311, bad-indentation, ) Bad indentation. Found 12 spaces, expected 24
+ data/pox/pox/boot.py:311: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:312: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:314: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:315: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:316: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:318: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:320: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:323: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ class Options (object):
+               ^
+ data/pox/pox/boot.py:324: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:324: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def set (self, given_name, value):
+           ^
+ data/pox/pox/boot.py:325: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:326: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:328: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:329: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:330: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:331: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:332: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:333: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:334: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:335: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:336: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:337: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:338: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:339: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:341: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:342: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:343: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:345: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:345: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def process_options (self, options):
+                       ^
+ data/pox/pox/boot.py:346: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:346: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+     for k,v in options.iteritems():
+          ^
+ data/pox/pox/boot.py:347: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:349: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:376: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ class POXOptions (Options):
+                  ^
+ data/pox/pox/boot.py:377: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:377: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def __init__ (self):
+                ^
+ data/pox/pox/boot.py:379: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:380: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:381: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:382: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:383: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:384: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:386: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:386: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def _set_h (self, given_name, name, value):
+              ^
+ data/pox/pox/boot.py:387: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:389: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:389: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def _set_help (self, given_name, name, value):
+                 ^
+ data/pox/pox/boot.py:390: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:392: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:394: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:394: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def _set_version (self, given_name, name, value):
+                    ^
+ data/pox/pox/boot.py:395: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:396: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:397: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:398: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:399: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:401: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:401: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def _set_unthreaded_sh (self, given_name, name, value):
+                          ^
+ data/pox/pox/boot.py:402: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:404: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:404: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def _set_epoll_sh (self, given_name, name, value):
+                     ^
+ data/pox/pox/boot.py:405: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:407: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:407: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def _set_no_openflow (self, given_name, name, value):
+                        ^
+ data/pox/pox/boot.py:408: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:413: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:413: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def _set_log_config (self, given_name, name, value):
+                       ^
+ data/pox/pox/boot.py:414: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:416: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:417: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:418: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:420: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:420: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def _set_debug (self, given_name, name, value):
+                  ^
+ data/pox/pox/boot.py:421: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:422: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:425: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:426: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:433: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ def _pre_startup ():
+                  ^
+ data/pox/pox/boot.py:434: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:441: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:443: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:444: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:446: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:447: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:450: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ def _post_startup ():
+                   ^
+ data/pox/pox/boot.py:451: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:452: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:453: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:455: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:456: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:457: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:458: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:462: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ def _setup_logging ():
+                    ^
+ data/pox/pox/boot.py:468: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:469: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:470: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:471: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:472: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:482: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:483: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:484: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:485: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:486: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:490: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ def set_main_function (f):
+                       ^
+ data/pox/pox/boot.py:491: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:492: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:493: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:494: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:495: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:496: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:497: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:498: convention (C0330, bad-continuation, ) Wrong continued indentation (add 5 spaces).
+         + "taken by: " + str(_main_thread_function))
+         ^    |
+ data/pox/pox/boot.py:499: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:500: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:501: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:504: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ def boot (argv = None):
+          ^
+ data/pox/pox/boot.py:504: convention (C0326, bad-whitespace, ) No space allowed around keyword argument assignment
+ def boot (argv = None):
+                ^
+ data/pox/pox/boot.py:505: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:510: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:511: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:512: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:514: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:516: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:518: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:519: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:520: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:524: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:525: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:526: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:527: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:528: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:529: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:530: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:532: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:533: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:534: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:535: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:537: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:538: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:540: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:541: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:542: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:543: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:544: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:550: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:551: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:552: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:554: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:555: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:556: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:557: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:559: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:560: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:562: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:563: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:564: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:566: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:567: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:568: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:569: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:570: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/boot.py:571: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/boot.py:572: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:573: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/boot.py:576: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:577: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:578: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/boot.py:579: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/boot.py:55: error (E0611, no-name-in-module, ) No name 'core' in module 'pox'
+ data/pox/pox/boot.py:55: error (E0401, import-error, ) Unable to import 'pox.core'
+ data/pox/pox/boot.py:56: convention (C0103, invalid-name, ) Constant name "core" doesn't conform to UPPER_CASE naming style
+ data/pox/pox/boot.py:58: error (E0611, no-name-in-module, ) No name 'openflow' in module 'pox'
+ data/pox/pox/boot.py:58: error (E0401, import-error, ) Unable to import 'pox.openflow'
+ data/pox/pox/boot.py:58: convention (C0413, wrong-import-position, ) Import "import pox.openflow" should be placed at the top of the module
+ data/pox/pox/boot.py:59: error (E0611, no-name-in-module, ) No name 'lib' in module 'pox'
+ data/pox/pox/boot.py:59: error (E0401, import-error, ) Unable to import 'pox.lib.util'
+ data/pox/pox/boot.py:59: convention (C0413, wrong-import-position, ) Import "from pox.lib.util import str_to_bool" should be placed at the top of the module
+ data/pox/pox/boot.py:62: convention (C0103, invalid-name, ) Constant name "_main_thread_function" doesn't conform to UPPER_CASE naming style
+ data/pox/pox/boot.py:115: warning (W0621, redefined-outer-name, _do_import.do_import2) Redefining name 'os' from outer scope (line 47)
+ data/pox/pox/boot.py:80: convention (C1801, len-as-condition, _do_import.do_import2) Do not use `len(SEQUENCE)` to determine if a sequence is empty
+ data/pox/pox/boot.py:127: warning (W0702, bare-except, _do_import.do_import2) No exception type(s) specified
+ data/pox/pox/boot.py:105: convention (C0103, invalid-name, _do_import.do_import2) Variable name "s" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:109: refactor (R1705, no-else-return, _do_import.do_import2) Unnecessary "elif" after "return"
+ data/pox/pox/boot.py:116: convention (C0103, invalid-name, _do_import.do_import2) Variable name "n" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:117: convention (C0103, invalid-name, _do_import.do_import2) Variable name "n" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:119: convention (C0103, invalid-name, _do_import.do_import2) Variable name "n" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:79: refactor (R0911, too-many-return-statements, _do_import.do_import2) Too many return statements (7/6)
+ data/pox/pox/boot.py:145: convention (C0321, multiple-statements, _do_imports) More than one statement on a single line
+ data/pox/pox/boot.py:146: convention (C0103, invalid-name, _do_imports) Variable name "r" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:155: refactor (R0914, too-many-locals, _do_launch) Too many local variables (31/15)
+ data/pox/pox/boot.py:172: convention (C0321, multiple-statements, _do_launch) More than one statement on a single line
+ data/pox/pox/boot.py:176: warning (W0603, global-statement, _do_launch) Using the global statement
+ data/pox/pox/boot.py:176: convention (C0103, invalid-name, _do_launch) Constant name "core" doesn't conform to UPPER_CASE naming style
+ data/pox/pox/boot.py:177: info (I1101, c-extension-no-member, _do_launch) Module 'pox' has no 'core' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects.
+ data/pox/pox/boot.py:178: info (I1101, c-extension-no-member, _do_launch) Module 'pox' has no 'core' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects.
+ data/pox/pox/boot.py:181: info (I1101, c-extension-no-member, _do_launch) Module 'pox' has no 'core' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects.
+ data/pox/pox/boot.py:202: convention (C0103, invalid-name, _do_launch) Variable name "f" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:204: convention (C0123, unidiomatic-typecheck, _do_launch) Using type() instead of isinstance() for a typecheck.
+ data/pox/pox/boot.py:210: convention (C0103, invalid-name, _do_launch) Variable name "v" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:214: warning (W0702, bare-except, _do_launch) No exception type(s) specified
+ data/pox/pox/boot.py:191: refactor (R1702, too-many-nested-blocks, _do_launch) Too many nested blocks (6/5)
+ data/pox/pox/boot.py:238: convention (C0121, singleton-comparison, _do_launch) Comparison to False should be 'not expr'
+ data/pox/pox/boot.py:247: convention (C0103, invalid-name, _do_launch) Variable name "instText" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:249: convention (C0103, invalid-name, _do_launch) Variable name "instText" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:260: convention (C0103, invalid-name, _do_launch) Variable name "EMPTY" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:267: convention (C0103, invalid-name, _do_launch) Variable name "n" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:267: convention (C0103, invalid-name, _do_launch) Variable name "a" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:289: convention (C1801, len-as-condition, _do_launch) Do not use `len(SEQUENCE)` to determine if a sequence is empty
+ data/pox/pox/boot.py:296: convention (C0103, invalid-name, _do_launch) Variable name "v" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:296: error (E1101, no-member, _do_launch) Instance of 'dict' has no 'iteritems' member
+ data/pox/pox/boot.py:300: convention (C1801, len-as-condition, _do_launch) Do not use `len(SEQUENCE)` to determine if a sequence is empty
+ data/pox/pox/boot.py:304: error (E1101, no-member, _do_launch) Instance of 'dict' has no 'iteritems' member
+ data/pox/pox/boot.py:306: convention (C1801, len-as-condition, _do_launch) Do not use `len(SEQUENCE)` to determine if a sequence is empty
+ data/pox/pox/boot.py:315: convention (C1801, len-as-condition, _do_launch) Do not use `len(SEQUENCE)` to determine if a sequence is empty
+ data/pox/pox/boot.py:315: refactor (R0123, literal-comparison, _do_launch) Comparison to literal
+ data/pox/pox/boot.py:199: warning (W0612, unused-variable, _do_launch) Unused variable 'module'
+ data/pox/pox/boot.py:155: refactor (R0911, too-many-return-statements, _do_launch) Too many return statements (9/6)
+ data/pox/pox/boot.py:155: refactor (R0912, too-many-branches, _do_launch) Too many branches (36/12)
+ data/pox/pox/boot.py:155: refactor (R0915, too-many-statements, _do_launch) Too many statements (103/50)
+ data/pox/pox/boot.py:323: convention (C0111, missing-docstring, Options) Missing class docstring
+ data/pox/pox/boot.py:323: refactor (R0205, useless-object-inheritance, Options) Class 'Options' inherits from object, can be safely removed from bases in python3
+ data/pox/pox/boot.py:324: convention (C0111, missing-docstring, Options.set) Missing method docstring
+ data/pox/pox/boot.py:332: convention (C0121, singleton-comparison, Options.set) Comparison to False should be 'not expr'
+ data/pox/pox/boot.py:332: convention (C0121, singleton-comparison, Options.set) Comparison to False should be 'not expr'
+ data/pox/pox/boot.py:345: convention (C0111, missing-docstring, Options.process_options) Missing method docstring
+ data/pox/pox/boot.py:346: convention (C0103, invalid-name, Options.process_options) Variable name "v" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:352: convention (C0103, invalid-name, ) Constant name "_help_text" doesn't conform to UPPER_CASE naming style
+ data/pox/pox/boot.py:376: convention (C0111, missing-docstring, POXOptions) Missing class docstring
+ data/pox/pox/boot.py:389: warning (W0613, unused-argument, POXOptions._set_help) Unused argument 'given_name'
+ data/pox/pox/boot.py:389: warning (W0613, unused-argument, POXOptions._set_help) Unused argument 'name'
+ data/pox/pox/boot.py:389: warning (W0613, unused-argument, POXOptions._set_help) Unused argument 'value'
+ data/pox/pox/boot.py:389: refactor (R0201, no-self-use, POXOptions._set_help) Method could be a function
+ data/pox/pox/boot.py:395: warning (W0603, global-statement, POXOptions._set_version) Using the global statement
+ data/pox/pox/boot.py:395: convention (C0103, invalid-name, POXOptions._set_version) Constant name "core" doesn't conform to UPPER_CASE naming style
+ data/pox/pox/boot.py:397: info (I1101, c-extension-no-member, POXOptions._set_version) Module 'pox' has no 'core' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects.
+ data/pox/pox/boot.py:398: warning (W0212, protected-access, POXOptions._set_version) Access to a protected member _get_python_version of a client class
+ data/pox/pox/boot.py:394: warning (W0613, unused-argument, POXOptions._set_version) Unused argument 'given_name'
+ data/pox/pox/boot.py:394: warning (W0613, unused-argument, POXOptions._set_version) Unused argument 'name'
+ data/pox/pox/boot.py:394: warning (W0613, unused-argument, POXOptions._set_version) Unused argument 'value'
+ data/pox/pox/boot.py:394: refactor (R0201, no-self-use, POXOptions._set_version) Method could be a function
+ data/pox/pox/boot.py:401: warning (W0613, unused-argument, POXOptions._set_unthreaded_sh) Unused argument 'given_name'
+ data/pox/pox/boot.py:401: warning (W0613, unused-argument, POXOptions._set_unthreaded_sh) Unused argument 'name'
+ data/pox/pox/boot.py:401: warning (W0613, unused-argument, POXOptions._set_unthreaded_sh) Unused argument 'value'
+ data/pox/pox/boot.py:404: warning (W0613, unused-argument, POXOptions._set_epoll_sh) Unused argument 'given_name'
+ data/pox/pox/boot.py:404: warning (W0613, unused-argument, POXOptions._set_epoll_sh) Unused argument 'name'
+ data/pox/pox/boot.py:407: warning (W0613, unused-argument, POXOptions._set_no_openflow) Unused argument 'given_name'
+ data/pox/pox/boot.py:407: warning (W0613, unused-argument, POXOptions._set_no_openflow) Unused argument 'name'
+ data/pox/pox/boot.py:416: convention (C0103, invalid-name, POXOptions._set_log_config) Variable name "p" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:413: warning (W0613, unused-argument, POXOptions._set_log_config) Unused argument 'given_name'
+ data/pox/pox/boot.py:413: warning (W0613, unused-argument, POXOptions._set_log_config) Unused argument 'name'
+ data/pox/pox/boot.py:420: warning (W0613, unused-argument, POXOptions._set_debug) Unused argument 'given_name'
+ data/pox/pox/boot.py:420: warning (W0613, unused-argument, POXOptions._set_debug) Unused argument 'name'
+ data/pox/pox/boot.py:430: convention (C0103, invalid-name, ) Constant name "_options" doesn't conform to UPPER_CASE naming style
+ data/pox/pox/boot.py:447: warning (W0212, protected-access, _pre_startup) Access to a protected member _launch of a client class
+ data/pox/pox/boot.py:447: info (I1101, c-extension-no-member, _pre_startup) Module 'pox' has no 'openflow' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects.
+ data/pox/pox/boot.py:455: warning (W0621, redefined-outer-name, _post_startup) Redefining name 'pox' from outer scope (line 55)
+ data/pox/pox/boot.py:452: warning (W0212, protected-access, _post_startup) Access to a protected member _openflow_wanted of a client class
+ data/pox/pox/boot.py:455: error (E0611, no-name-in-module, _post_startup) No name 'openflow' in module 'pox'
+ data/pox/pox/boot.py:455: error (E0401, import-error, _post_startup) Unable to import 'pox.openflow.of_01'
+ data/pox/pox/boot.py:456: info (I1101, c-extension-no-member, _post_startup) Module 'pox' has no 'openflow' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects.
+ data/pox/pox/boot.py:468: warning (W0212, protected-access, _setup_logging) Access to a protected member _default_log_handler of a client class
+ data/pox/pox/boot.py:468: info (I1101, c-extension-no-member, _setup_logging) Module 'pox' has no 'core' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects.
+ data/pox/pox/boot.py:470: warning (W0212, protected-access, _setup_logging) Access to a protected member _default_log_handler of a client class
+ data/pox/pox/boot.py:470: info (I1101, c-extension-no-member, _setup_logging) Module 'pox' has no 'core' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects.
+ data/pox/pox/boot.py:471: warning (W0212, protected-access, _setup_logging) Access to a protected member _default_log_handler of a client class
+ data/pox/pox/boot.py:471: info (I1101, c-extension-no-member, _setup_logging) Module 'pox' has no 'core' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects.
+ data/pox/pox/boot.py:494: warning (W0621, redefined-outer-name, set_main_function) Redefining name 'logging' from outer scope (line 45)
+ data/pox/pox/boot.py:490: convention (C0103, invalid-name, set_main_function) Argument name "f" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:490: convention (C0111, missing-docstring, set_main_function) Missing function docstring
+ data/pox/pox/boot.py:491: warning (W0603, global-statement, set_main_function) Using the global statement
+ data/pox/pox/boot.py:491: convention (C0103, invalid-name, set_main_function) Constant name "_main_thread_function" doesn't conform to UPPER_CASE naming style
+ data/pox/pox/boot.py:492: convention (C0321, multiple-statements, set_main_function) More than one statement on a single line
+ data/pox/pox/boot.py:494: warning (W0404, reimported, set_main_function) Reimport 'logging' (imported line 45)
+ data/pox/pox/boot.py:495: convention (C0103, invalid-name, set_main_function) Variable name "lg" doesn't conform to snake_case naming style
+ data/pox/pox/boot.py:496: warning (W1201, logging-not-lazy, set_main_function) Specify string format arguments as logging function parameters
+ data/pox/pox/boot.py:497: warning (W1201, logging-not-lazy, set_main_function) Specify string format arguments as logging function parameters
+ data/pox/pox/boot.py:542: warning (W0702, bare-except, boot) No exception type(s) specified
+ data/pox/pox/boot.py:525: convention (C1801, len-as-condition, boot) Do not use `len(SEQUENCE)` to determine if a sequence is empty
+ data/pox/pox/boot.py:556: warning (W0702, bare-except, boot) No exception type(s) specified
+ data/pox/pox/boot.py:559: warning (W0212, protected-access, boot) Access to a protected member _exit of a client class
+ data/pox/pox/boot.py:572: warning (W0702, bare-except, boot) No exception type(s) specified
+ data/pox/pox/boot.py:571: convention (C0321, multiple-statements, boot) More than one statement on a single line
+ data/pox/pox/boot.py:578: warning (W0702, bare-except, boot) No exception type(s) specified
+ data/pox/pox/boot.py:504: refactor (R0912, too-many-branches, boot) Too many branches (19/12)
+ ************* Module pox.pox.core
+ data/pox/pox/core.py:60: warning (W0511, fixme, ) FIXME: use os.path or whatever
+ data/pox/pox/core.py:426: warning (W0511, fixme, ) TODO: weak references?
+ data/pox/pox/core.py:459: warning (W0511, fixme, ) TODO: Use inspect here instead
+ data/pox/pox/core.py:44: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ def getLogger (name=None, moreFrames=0):
+               ^
+ data/pox/pox/core.py:45: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:49: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:50: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:51: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:52: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:53: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:54: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:55: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:56: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:57: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:58: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:59: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:60: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:63: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:64: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:65: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:66: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/core.py:67: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/core.py:68: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/core.py:70: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:71: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:71: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+       name = name.split("ext.",1)[1]
+                               ^
+ data/pox/pox/core.py:73: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:74: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:74: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+       name = name.rsplit(".__init__",1)[0]
+                                     ^
+ data/pox/pox/core.py:76: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:77: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:77: convention (C0326, bad-whitespace, ) Exactly one space required around assignment
+   g=globals()
+    ^
+ data/pox/pox/core.py:78: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:79: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:79: convention (C0326, bad-whitespace, ) No space allowed before bracket
+     def printmsg (*args, **kw):
+                  ^
+ data/pox/pox/core.py:81: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:82: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:83: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:84: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:85: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/core.py:86: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:87: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:88: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:89: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/core.py:90: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/core.py:91: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/core.py:92: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/core.py:93: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/core.py:94: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/core.py:95: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:96: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/core.py:97: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/core.py:98: warning (W0311, bad-indentation, ) Bad indentation. Found 10 spaces, expected 20
+ data/pox/pox/core.py:99: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/core.py:100: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/core.py:101: warning (W0311, bad-indentation, ) Bad indentation. Found 8 spaces, expected 16
+ data/pox/pox/core.py:103: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:104: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:106: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:110: convention (C0326, bad-whitespace, ) No space allowed before :
+ log = (lambda : getLogger())()
+               ^
+ data/pox/pox/core.py:116: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ def _revent_exception_hook (source, event, args, kw, exc_info):
+                            ^
+ data/pox/pox/core.py:117: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:118: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:119: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:120: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:121: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:122: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:123: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:124: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:125: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:125: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+   log.exception("Exception while handling %s!%s...\n" % (c,t))
+                                                           ^
+ data/pox/pox/core.py:129: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ class GoingUpEvent (Event):
+                    ^
+ data/pox/pox/core.py:130: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:131: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:133: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ class GoingDownEvent (Event):
+                      ^
+ data/pox/pox/core.py:134: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:135: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:137: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ class UpEvent (Event):
+               ^
+ data/pox/pox/core.py:138: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:139: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:141: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ class DownEvent (Event):
+                 ^
+ data/pox/pox/core.py:142: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:143: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:145: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ class ComponentRegistered (Event):
+                           ^
+ data/pox/pox/core.py:146: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:151: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:151: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def __init__ (self, name, component):
+                ^
+ data/pox/pox/core.py:152: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:153: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:155: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ class RereadConfiguration (Event):
+                           ^
+ data/pox/pox/core.py:156: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:157: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:161: convention (C0326, bad-whitespace, ) No space allowed before bracket
+ class POXCore (EventMixin):
+               ^
+ data/pox/pox/core.py:162: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:181: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:182: convention (C0330, bad-continuation, ) Wrong hanging indentation (add 2 spaces).
+     UpEvent,
+     ^ |
+ data/pox/pox/core.py:183: convention (C0330, bad-continuation, ) Wrong hanging indentation (add 2 spaces).
+     DownEvent,
+     ^ |
+ data/pox/pox/core.py:184: convention (C0330, bad-continuation, ) Wrong hanging indentation (add 2 spaces).
+     GoingUpEvent,
+     ^ |
+ data/pox/pox/core.py:185: convention (C0330, bad-continuation, ) Wrong hanging indentation (add 2 spaces).
+     GoingDownEvent,
+     ^ |
+ data/pox/pox/core.py:186: convention (C0330, bad-continuation, ) Wrong hanging indentation (add 2 spaces).
+     ComponentRegistered,
+     ^ |
+ data/pox/pox/core.py:187: convention (C0330, bad-continuation, ) Wrong hanging indentation (add 2 spaces).
+     RereadConfiguration,
+     ^ |
+ data/pox/pox/core.py:190: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:190: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+   version = (0,5,0)
+               ^
+ data/pox/pox/core.py:190: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+   version = (0,5,0)
+                 ^
+ data/pox/pox/core.py:191: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:193: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:193: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def __init__ (self, threaded_selecthub=True, epoll_selecthub=False,
+                ^
+ data/pox/pox/core.py:195: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:196: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:197: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:198: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:200: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:201: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:203: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:204: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:206: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:208: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:212: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:214: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:215: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:215: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def banner (self):
+              ^
+ data/pox/pox/core.py:216: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:217: convention (C0330, bad-continuation, ) Wrong hanging indentation (add 3 spaces).
+      self.version_string)
+      ^  |
+ data/pox/pox/core.py:219: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:220: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:220: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def version_string (self):
+                      ^
+ data/pox/pox/core.py:221: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:221: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+     return "POX %s (%s)" % ('.'.join(map(str,self.version)),self.version_name)
+                                             ^
+ data/pox/pox/core.py:221: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+     return "POX %s (%s)" % ('.'.join(map(str,self.version)),self.version_name)
+                                                            ^
+ data/pox/pox/core.py:223: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:223: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def callDelayed (_self, _seconds, _func, *args, **kw):
+                   ^
+ data/pox/pox/core.py:224: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:228: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:229: convention (C0326, bad-whitespace, ) No space allowed around keyword argument assignment
+                      scheduler = _self.scheduler)
+                                ^
+ data/pox/pox/core.py:230: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:232: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:232: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def callLater (_self, _func, *args, **kw):
+                 ^
+ data/pox/pox/core.py:235: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:249: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:251: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:251: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def raiseLater (_self, _obj, *args, **kw):
+                  ^
+ data/pox/pox/core.py:254: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:260: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:262: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:262: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def getLogger (self, *args, **kw):
+                 ^
+ data/pox/pox/core.py:263: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:268: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:268: convention (C0326, bad-whitespace, ) Exactly one space required after comma
+     return getLogger(moreFrames=1,*args, **kw)
+                                  ^
+ data/pox/pox/core.py:270: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
+ data/pox/pox/core.py:270: convention (C0326, bad-whitespace, ) No space allowed before bracket
+   def quit (self):
+            ^
+ data/pox/pox/core.py:271: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:274: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:275: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:276: convention (C0330, bad-continuation, ) Wrong continued indentation before block (add 4 spaces).
+         threading.current_thread() is self.scheduler._thread):
+         ^   |
+ data/pox/pox/core.py:277: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:278: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:279: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:280: warning (W0311, bad-indentation, ) Bad indentation. Found 4 spaces, expected 8
+ data/pox/pox/core.py:281: warning (W0311, bad-indentation, ) Bad indentation. Found 6 spaces, expected 12
+ data/pox/pox/core.py:283: warning (W0311, bad-indentation, ) Bad indentation. Found 2 spaces, expected 4
