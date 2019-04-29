@@ -7,19 +7,17 @@ import io
 import os
 from pylint import epylint as lint
 
-data_path = sys.argv[1]
-#result_file = sys.argv[2]
+def run_pylint(file_path):
+    pylint_stdout, pylint_stderr = lint.py_run(file_path, return_std=True)
+    return pylint_stdout
 
-pylint_stdout, pylint_stderr = lint.py_run(data_path, return_std=True)
+data_path = sys.argv[1]
 
 for root, dirs, files in os.walk(data_path):
     for source_file in files:
         if source_file.endswith('.py'):
             file_path = root+'/'+source_file
-            print(pylint_stdout.getvalue())
-            #with open(result_file, 'a') as f:
-    #f.write(pylint_stdout.getvalue())
-    #f.close()
-    #print(pylint_stdout.getvalue())
+            result = run_pylint(file_path)
+            print(result.getvalue())
 
 
