@@ -22,8 +22,13 @@ with open(result_file, 'r') as f:
                     error_dict[error]=1
     f.close()
 
+total = 0
 for error_type in error_dict:
     print(error_type +':' + str(error_dict[error_type]))
+    total = total + error_dict[error_type]
+
+print(total)
+
 
 
 
